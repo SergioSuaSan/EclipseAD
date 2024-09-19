@@ -1653,3 +1653,6 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-09-19 11:52:53.019
+!MESSAGE Version 6.0 of project facet glassfish.web does not exist. It is used in plugin org.glassfish.eclipse.tools.server.
