@@ -28,20 +28,39 @@
             </header>
 
             <main>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 d-flex mb-2">
-                            <div class="row shadow m-3">
-                                <div class="col-4">
+                <div class="container p-0">
+                    <div class="row p-0">
+                        <div class="col-lg-6 mb-2">
+
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4 text-center">
+                                    <img src="https://openweathermap.org/img/wn/04n@2x.png" class="img-fluid " alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">This is a wide</p>
+                                      <p class="card-text">This is a wide</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+
+                           <!--
+                            <div class="row shadow m-3 p-0 m-0">
+                                <div class="col-4 p-0 m-0">
                                     <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
                                 </div>
                                 <div class="col-8">
                                     <h4>From lkjjk - To ñalskdjfasd</h4>
                                     <h5>cielo claro</h5>
                                     <h5>Maxima y Minima</h5>
-                                   
+                                    
                                 </div>
                             </div>
+                            --> 
                         </div>
                     	
                     </div>

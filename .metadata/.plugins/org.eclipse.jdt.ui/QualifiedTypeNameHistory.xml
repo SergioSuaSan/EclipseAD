@@ -3,4 +3,11 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="manejador.ManejadorWeb"/>
     <fullyQualifiedTypeName name="model.Dia"/>
+    <fullyQualifiedTypeName name="com.google.gson.annotations.SerializedName"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.IOUtils"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.jakartaee.commons.compress.utils.Charsets"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="model.Resultado"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 </qualifiedTypeNameHistroy>
