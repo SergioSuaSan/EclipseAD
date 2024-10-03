@@ -12,13 +12,7 @@ public class Dia {
 	private float pop;
 	@SerializedName("dt_txt")
 	private String fecha;
-	public Dia(Temps temps, List<Icoprono> icoprono, int pop, String fecha) {
-		super();
-		this.temps = temps;
-		this.icoprono = icoprono;
-		this.pop = pop;
-		this.fecha = fecha;
-	}
+	
 	public Temps getTemps() {
 		return temps;
 	}
@@ -42,10 +36,6 @@ public class Dia {
 	}
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
-	}
-	@Override
-	public String toString() {
-		return "Dia [temps=" + temps + ", icoprono=" + icoprono + ", pop=" + pop + ", fecha=" + fecha + "]";
 	}
 
 	
