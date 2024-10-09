@@ -12,7 +12,7 @@ import com.google.gson.Gson;
 
 
 import model.Personaje;
-import model.Resultado;
+import model.Root;
 
 public class Marvel {
 	
@@ -23,11 +23,11 @@ public class Marvel {
 	}
 
 	public List<Personaje> getPersonajes() {
-		String urtTXT = "https://gateway.marvel.com/v1/public/characters?limit=100&offset=1&apikey=e894ad1f6af082d2b6b7a63ff20f35e0&hash=6faa0674ad5f8d6d7563ae9d0ad65dc9&ts=9";
-		Resultado resultado = null;
+		String urtTXT = "https://gateway.marvel.com/v1/public/characters?limit=10&offset=1&apikey=e894ad1f6af082d2b6b7a63ff20f35e0&hash=6faa0674ad5f8d6d7563ae9d0ad65dc9&ts=9";
+		Root root = null;
 		try {
 			String jsonTxT = IOUtils.toString(new URI(urtTXT), Charset.forName("UTF-8"));
-			 resultado = new Gson().fromJson(jsonTxT, Resultado.class);
+			 root = new Gson().fromJson(jsonTxT, Root.class);
 		
 		
 			
@@ -40,7 +40,7 @@ public class Marvel {
 		} 
 
 		
-		return resultado.getResultado();
+		return root.getResultado().getResultado();
 		
 		
 		

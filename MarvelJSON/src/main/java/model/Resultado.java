@@ -5,25 +5,25 @@ import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
 public class Resultado {
-	@SerializedName("result")
-	private List<Personaje> resultado;
+	@SerializedName("results")
+	private List<Personaje> personajes;
 
 	public Resultado(List<Personaje> resultado) {
 		super();
-		this.resultado = resultado;
+		this.personajes = resultado;
 	}
 
 	public List<Personaje> getResultado() {
-		return resultado;
+		return personajes;
 	}
 
 	public void setResultado(List<Personaje> resultado) {
-		this.resultado = resultado;
+		this.personajes = resultado;
 	}
 
 	@Override
 	public String toString() {
-		return "Resultado [resultado=" + resultado + "]";
+		return "Resultado [resultado=" + personajes + "]";
 	}
 	
 	
