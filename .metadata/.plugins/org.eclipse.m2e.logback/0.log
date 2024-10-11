@@ -2020,3 +2020,295 @@ org.eclipse.core.runtime.CoreException: Launch configuration Prueba references n
 2024-10-10 10:15:37,131 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
 2024-10-10 10:15:37,133 [Worker-58: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-10-10 10:15:37,134 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-10 11:36:25,126 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-10 12:55:51,070 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: caravanJSON:caravanJSON:0.0.1-SNAPSHOT @ C:\EclipseAD\caravanJSON\pom.xml.
+2024-10-10 12:55:51,886 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /caravanJSON/src/main/java
+2024-10-10 12:55:51,889 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /caravanJSON/src/main/resources
+2024-10-10 12:55:51,890 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /caravanJSON/src/test/java
+2024-10-10 12:55:51,891 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /caravanJSON/src/test/resources
+2024-10-10 12:55:52,137 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-10 12:55:52,360 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: caravanJSON:caravanJSON:0.0.1-SNAPSHOT @ C:\EclipseAD\caravanJSON\pom.xml.
+2024-10-10 12:55:52,774 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /caravanJSON/src/main/java
+2024-10-10 12:55:52,775 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /caravanJSON/src/main/resources
+2024-10-10 12:55:52,775 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /caravanJSON/src/test/java
+2024-10-10 12:55:52,776 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /caravanJSON/src/test/resources
+2024-10-10 12:55:52,981 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for caravanJSON
+2024-10-10 12:55:53,001 [Worker-54: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-10-10 12:55:53,141 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:55:53,143 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 12:55:53,147 [Worker-60: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:55:53,148 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 12:55:53,148 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of caravanJSON
+2024-10-10 12:55:53,149 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for caravanJSON
+2024-10-10 13:00:50,265 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:00:50,266 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:00:50,268 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:00:50,269 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:01:59,946 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:01:59,947 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:01:59,949 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:01:59,949 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:02:17,354 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:02:17,355 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:02:17,356 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:02:17,356 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:05:25,733 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:05:25,735 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:05:25,737 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:05:25,738 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:05:29,271 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:05:29,272 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:05:29,275 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:05:29,280 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:10:24,081 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:10:24,081 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:10:24,083 [Worker-68: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:10:24,084 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:13:27,165 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: caravanJSON:caravanJSON:0.0.1-SNAPSHOT @ C:\EclipseAD\caravanJSON\pom.xml.
+2024-10-10 13:13:27,204 [Worker-64: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier  to /MarvelJSON/target/classes
+2024-10-10 13:13:27,224 [Worker-64: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier  to /MarvelJSON/target/classes
+2024-10-10 13:13:27,702 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:13:27,703 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:13:27,707 [Worker-64: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:13:27,707 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:13:27,707 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of caravanJSON
+2024-10-10 13:13:27,707 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for caravanJSON
+2024-10-10 13:18:12,170 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:12,172 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:18:12,174 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:12,175 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:18:14,330 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:14,332 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:18:14,335 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:14,336 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:18:17,268 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:17,269 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:18:17,272 [Worker-65: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:18:17,273 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:24:10,211 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:10,212 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:24:10,213 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:10,215 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:24:12,699 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:12,700 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:24:12,704 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:12,705 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:24:21,296 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:21,296 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:24:21,298 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:24:21,298 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:25:18,616 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:25:18,618 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-10 13:25:18,623 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:25:18,624 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-10 13:25:32,006 [Worker-73: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:25:32,006 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:25:32,009 [Worker-73: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:25:32,010 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:32:39,380 [Worker-78: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:32:39,381 [Worker-78: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:32:39,385 [Worker-78: Building Workspace] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:32:39,386 [Worker-78: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:33:29,808 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:33:29,809 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:33:29,811 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:33:29,811 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:44:50,970 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:44:50,971 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:44:50,974 [Worker-67: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:44:50,976 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:45:14,586 [Worker-84: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:45:14,586 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:45:14,589 [Worker-84: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:45:14,590 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:51:06,215 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:51:06,215 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:51:06,219 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:51:06,220 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:56:48,235 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:56:48,236 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:56:48,238 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:56:48,238 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:57:48,829 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:57:48,830 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:57:48,832 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:57:48,832 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 13:59:14,580 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:59:14,582 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 13:59:14,584 [Worker-91: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 13:59:14,586 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:00:37,641 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:00:37,655 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:00:37,668 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:19,311 [Worker-89: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:19,328 [Worker-89: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:19,342 [Worker-89: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:51,324 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:01:51,325 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 14:01:51,326 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:01:51,327 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:01:53,330 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:53,340 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:01:53,351 [Worker-87: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:02:30,046 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:02:30,047 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 14:02:30,049 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:02:30,050 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:02:57,259 [Worker-97: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:02:57,269 [Worker-97: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:02:57,279 [Worker-97: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:03:25,737 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:03:25,738 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 14:03:25,739 [Worker-93: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:03:25,740 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:03:29,831 [Worker-91: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:03:29,841 [Worker-91: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:03:29,851 [Worker-91: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:03:52,252 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-10 14:04:05,506 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier  to /MarvelJSON/target/classes
+2024-10-10 14:05:26,751 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:05:26,752 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 14:05:26,755 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:05:26,756 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:06:19,583 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:06:19,584 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-10 14:06:19,589 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 14:06:19,590 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-10 14:08:40,460 [Worker-0: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:08:40,475 [Worker-0: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-10 14:08:40,489 [Worker-0: Launching Prueba (5)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier null to /MarvelJSON/target/classes
+2024-10-11 08:11:46,173 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-11 08:13:20,757 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MarvelJSON: MarvelJSON:MarvelJSON:0.0.1-SNAPSHOT with classifier  to /MarvelJSON/target/classes
+2024-10-11 08:13:29,889 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:13:29,890 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\main\resources
+2024-10-11 08:13:29,896 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:13:29,897 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\caravanJSON\src\test\resources
+2024-10-11 08:17:16,489 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:17:16,491 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:17:16,495 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:17:16,496 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:24:11,570 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:24:11,572 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:24:11,575 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:24:11,576 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:25:28,267 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:25:28,268 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:25:28,271 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:25:28,272 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:27:08,238 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:27:08,239 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:27:08,242 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:27:08,243 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:28:28,891 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:28:28,892 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:28:28,895 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:28:28,896 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:28:50,656 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:28:50,657 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:28:50,660 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:28:50,661 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:29:06,560 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:29:06,560 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:29:06,576 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:29:06,576 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:29:41,218 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:29:41,219 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:29:41,221 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:29:41,222 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:30:31,459 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:30:31,460 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:30:31,463 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:30:31,464 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:31:15,557 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:31:15,559 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:31:15,561 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:31:15,561 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:34:50,489 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:34:50,490 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:34:50,492 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:34:50,493 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:38:16,146 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:38:16,147 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:38:16,150 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:38:16,150 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:39:45,637 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:39:45,638 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:39:45,642 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:39:45,642 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:39:55,858 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:39:55,860 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:39:55,860 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:39:55,863 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:45:07,561 [Worker-44: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:45:07,561 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:45:07,575 [Worker-44: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:45:07,575 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:45:52,055 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:45:52,056 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:45:52,060 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:45:52,061 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:46:24,124 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:46:24,125 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:46:24,127 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:46:24,128 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:46:46,589 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:46:46,590 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:46:46,593 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:46:46,594 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 08:48:24,333 [Worker-48: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:48:24,335 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 08:48:24,340 [Worker-48: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 08:48:24,343 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:07:47,330 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:07:47,332 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:07:47,334 [Worker-52: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:07:47,335 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:08:51,900 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:08:51,902 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:08:51,904 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:08:51,905 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:10:07,372 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:10:07,372 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:10:07,376 [Worker-53: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:10:07,376 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:12:05,964 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:12:05,965 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:12:05,969 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:12:05,970 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:12:21,858 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:12:21,858 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:12:21,858 [Worker-56: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:12:21,858 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:13:30,911 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:13:30,912 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:13:30,916 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:13:30,917 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:30:36,283 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:30:36,284 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:30:36,289 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:30:36,291 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:33:37,280 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:33:37,282 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:33:37,285 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:33:37,286 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:57:01,913 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:57:01,914 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:57:01,917 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:57:01,919 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:58:08,638 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:58:08,640 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:58:08,646 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:58:08,647 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:58:52,543 [Worker-73: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:58:52,545 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:58:52,552 [Worker-73: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:58:52,555 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 09:59:58,779 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:59:58,781 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 09:59:58,783 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 09:59:58,785 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 10:20:25,159 [Worker-77: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 10:20:25,160 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\main\resources
+2024-10-11 10:20:25,161 [Worker-77: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-11 10:20:25,162 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\EclipseAD\MarvelJSON\src\test\resources
+2024-10-11 10:55:02,441 [Worker-26: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
