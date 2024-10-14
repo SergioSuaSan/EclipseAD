@@ -38,13 +38,29 @@ public class Controller extends HttpServlet {
 		HttpSession session = request.getSession();
 		
 		String op = request.getParameter("op");
+		List<Lieux> lugares = null;
+		Lieux lugar = null;
 		switch (op) {
 			case "inicio":
-				List<Lieux> lugares = Caravan.getLugares();
+				lugares = Caravan.getLugares();
 				// Entregamos a la vista home estos datos en forma de objeto bajo el nombre key
 				// Cuidado con la key!!. En la home habra que utilizarla y llamarla IGUAL IGUAL...
 				session.setAttribute("lugares", lugares);
 				request.getRequestDispatcher("home.jsp").forward(request, response);
+				break;			
+			case "detail":
+				String lugarid = request.getParameter("lugarid");
+				lugares = (List<Lieux>) session.getAttribute("lugares");
+				for (Lieux lieux : lugares) {
+					if (lieux.getId().equals(lugarid)) {
+						lugar = lieux;
+					}
+				}
+				
+				// Entregamos a la vista home estos datos en forma de objeto bajo el nombre key
+				// Cuidado con la key!!. En la home habra que utilizarla y llamarla IGUAL IGUAL...
+				session.setAttribute("lugar", lugar);
+				request.getRequestDispatcher("detail.jsp").forward(request, response);
 				break;			
 		}
 	}

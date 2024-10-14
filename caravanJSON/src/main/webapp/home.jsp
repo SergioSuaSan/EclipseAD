@@ -34,10 +34,13 @@
                 
                     <div class="col-md-6 d-flex mb-3">
                         <div class="card flex-fill">
+                         <img src="${lugar.photo}" alt="">
+                        <a href = "Controller?op=detail&lugarid=${lugar.id}" class= "text-dark text-decoration-none">
                             <div class="card-body">
                                 <h4 class="card-title">${lugar.titre}</h4>
                                 <p class="card-text">${lugar.description_es}</p>
                             </div>
+                        </a>
                         </div>
                         
                     </div>
