@@ -12,8 +12,8 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="dao.OpenWeather"/>
     <fullyQualifiedTypeName name="com.google.gson.annotations.SerializedName"/>
-    <fullyQualifiedTypeName name="model.Lieux"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="servlet.Controller"/>
     <fullyQualifiedTypeName name="dao.Caravan"/>
+    <fullyQualifiedTypeName name="model.Lieux"/>
 </qualifiedTypeNameHistroy>
