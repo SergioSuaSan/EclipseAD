@@ -5,8 +5,9 @@ import java.sql.SQLException;
 
 import oracle.jdbc.pool.OracleConnectionPoolDataSource;
 
+
 public class Conexion {
-    public static Connection conecta() throws SQLException{
+    public static Connection conecta(){
 		// change username password please
 		// 80.28.158.14 ip donde se ubica el Oracle Server del Azarquiel
 		// 1521:oradai, puerto default Oracle y servicio creado en este Server 
@@ -14,9 +15,16 @@ public class Conexion {
  
         OracleConnectionPoolDataSource ocpds;
         Connection con=null;
-       	ocpds=new OracleConnectionPoolDataSource();
-	    ocpds.setURL(url);
-	    con=ocpds.getConnection();
+       	try {
+			ocpds=new OracleConnectionPoolDataSource();
+		    ocpds.setURL(url);
+		    con=ocpds.getConnection();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("Error Conexion.\n"+e.getMessage());
+		}
+       	if (con!=null) System.out.println("Successful Conexion.");
 
        	return con;
     }

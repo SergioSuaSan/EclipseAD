@@ -43,28 +43,15 @@ public class Controller extends HttpServlet {
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
-			try {
-				con = Conexion.conecta();
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			con = Conexion.conecta();
 			session.setAttribute("con", con);
 		}
 		
-		
 		String op = request.getParameter("op");
+		System.out.println(op);
 		switch (op) {
 			case "inicio": 
-				// a trabajarrrrr y obtener los datos necesarios para esta opcion
-			try {
-				categorias = new DaoCategoria().getCategorias(con);
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-				// Entregamos a la vista home estos datos en forma de objeto bajo el nombre key
-				// Cuidado con la key!!. En la home habra que utilizarla y llamarla IGUAL IGUAL...
+			categorias = new DaoCategoria().getCategorias(con);
 				
 				session.setAttribute("categorias", categorias);
 				request.getRequestDispatcher("categorias.jsp").forward(request, response);
