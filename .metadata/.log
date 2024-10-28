@@ -3047,3 +3047,9 @@ Java Model Exception: Error in Java Model (code 979): Invalid path: '/FosterWebJ
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-28 14:13:04.359
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-28 14:15:24.704
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-28 14:15:24.707
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
