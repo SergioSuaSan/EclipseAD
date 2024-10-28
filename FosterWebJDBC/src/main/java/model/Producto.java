@@ -8,6 +8,29 @@ public class Producto {
 	private String body;
 	private String titulo;
 	private int id;
+	private int star;
+	
+	public Producto(String sumario, String fondo, String imagen, int categoriaid, String body, String titulo, int id,
+			int star) {
+		super();
+		this.sumario = sumario;
+		this.fondo = fondo;
+		this.imagen = imagen;
+		this.categoriaid = categoriaid;
+		this.body = body;
+		this.titulo = titulo;
+		this.id = id;
+		this.star = star;
+	}
+
+	
+	
+	public Producto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 
 	public String getSumario() {
 		return sumario;
@@ -65,28 +88,23 @@ public class Producto {
 		this.id = id;
 	}
 
-	public Producto(String sumario, String fondo, String imagen, int categoriaid, String body, String titulo, int id) {
-		super();
-		this.sumario = sumario;
-		this.fondo = fondo;
-		this.imagen = imagen;
-		this.categoriaid = categoriaid;
-		this.body = body;
-		this.titulo = titulo;
-		this.id = id;
+	public int getStar() {
+		return star;
 	}
-	
-	
 
-	public Producto() {
-		super();
-		// TODO Auto-generated constructor stub
+	public void setStar(int star) {
+		this.star = star;
 	}
 
 	@Override
 	public String toString() {
 		return "Producto [sumario=" + sumario + ", fondo=" + fondo + ", imagen=" + imagen + ", categoriaid="
-				+ categoriaid + ", body=" + body + ", titulo=" + titulo + ", id=" + id + "]";
+				+ categoriaid + ", body=" + body + ", titulo=" + titulo + ", id=" + id + ", star=" + star + "]";
 	}
+
+	
+	
+	
+	
 
 }

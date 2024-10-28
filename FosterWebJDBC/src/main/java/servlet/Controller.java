@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import model.Categoria;
+import model.Producto;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -16,6 +17,7 @@ import java.util.List;
 
 import conexion.Conexion;
 import dao.DaoCategoria;
+import dao.DaoProducto;
 
 
 /**
@@ -40,6 +42,7 @@ public class Controller extends HttpServlet {
 		HttpSession session = request.getSession();
 		Connection con = null;
 		ArrayList<Categoria> categorias = null;
+		ArrayList<Producto> productos = null;
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
@@ -55,7 +58,27 @@ public class Controller extends HttpServlet {
 				
 				session.setAttribute("categorias", categorias);
 				request.getRequestDispatcher("categorias.jsp").forward(request, response);
-				break;			
+				break;	
+				
+			case "dameplatos":
+				String idcategoria = request.getParameter("idcategoria");
+				String nombrecat = request.getParameter("nombrecat");
+				productos = new  DaoProducto().getProductosbyCategoria(con, Integer.parseInt(idcategoria));
+				
+				session.setAttribute("nombrecat", nombrecat);
+				session.setAttribute("productos", productos);
+				request.getRequestDispatcher("platos.jsp").forward(request, response);
+				break;
+			case "detail":
+				String idproducto = request.getParameter("idproducto");
+				String nombreproducto = request.getParameter("nombreproducto");
+				
+				Producto producto = new  DaoProducto().getProductobyId(con, Integer.parseInt(idproducto));
+			
+				session.setAttribute("producto", producto);
+				session.setAttribute("nombreproducto", nombreproducto);
+				request.getRequestDispatcher("detail.jsp").forward(request, response);
+				break;
 		}
 
 	}

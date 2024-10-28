@@ -4,7 +4,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Categorias</title>
+        <title>Platos</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -95,25 +95,24 @@
                 </div>
                 
             </section>
-            <section class="">
-                <h1 class="text-mas-azul bg-light text-center p-3 mb-3">Entrantes</h1>
+            <section class="pt-3">
+                <h1 class="text-mas-azul bg-light text-center p-3 mb-3">${nombrecat}</h1>
                 <div class="container shadow">
                     <div class="row justify-content-center">
-                    
-	                    <c:forEach items="${categorias}" var="categoria">
-	                    
-	                        <div class="col-md-6 col-lg-4">
-	          
-	                            <a href="Controller?op=dameplatos&idcategoria=${categoria.id}&nombrecat=${categoria.nombre}" class="text-decoration-none text-dark">
-	                                <div class="card">
-	                                    <img class="card-img-top" src="img/${categoria.nombre}.png" alt="Title" />
-	                                    <div class="card-body">
-	                                        <h4 class="card-title text-center">${categoria.nombre}</h4>       
-	                                    </div>
-	                                </div>
-	                            </a>
-	                        </div>
-	                    </c:forEach>
+                    <c:forEach items="${productos}" var="plato">
+                        <div class="col-md-6 col-lg-4">
+                            <a href="Controller?op=detail&idproducto=${plato.id}&nombreproducto=${plato.titulo}" class="text-decoration-none">
+                                <div class="card">
+                                    <img class="card-img-top" src="${plato.imagen}" alt="Title" />
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">${plato.titulo}</h4>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                                
+                        </div>
+                    </c:forEach>
                     </div>
                 </div>
 

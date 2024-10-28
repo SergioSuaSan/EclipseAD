@@ -32,6 +32,6 @@ a {
     color: #888 ;
 }
 
-.imagenfondo {
-    background-image: url(img/fondo.jpg);
+.fondo {
+	background-size: cover;
 }

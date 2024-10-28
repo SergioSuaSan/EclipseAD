@@ -4,7 +4,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Categorias</title>
+        <title>Detalles</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -93,31 +93,29 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                
             </section>
-            <section class="">
-                <h1 class="text-mas-azul bg-light text-center p-3 mb-3">Entrantes</h1>
-                <div class="container shadow">
-                    <div class="row justify-content-center">
-                    
-	                    <c:forEach items="${categorias}" var="categoria">
-	                    
-	                        <div class="col-md-6 col-lg-4">
-	          
-	                            <a href="Controller?op=dameplatos&idcategoria=${categoria.id}&nombrecat=${categoria.nombre}" class="text-decoration-none text-dark">
-	                                <div class="card">
-	                                    <img class="card-img-top" src="img/${categoria.nombre}.png" alt="Title" />
-	                                    <div class="card-body">
-	                                        <h4 class="card-title text-center">${categoria.nombre}</h4>       
-	                                    </div>
-	                                </div>
-	                            </a>
-	                        </div>
-	                    </c:forEach>
+
+            <section class="fondo pb-3" style="background-image: url(${producto.fondo});">
+                <h1 class="text-mas-azul  text-center p-3">${nombreproducto}</h1>
+                <div class="row justify-content-center m-0">
+                    <div class="col-8">
+                        <div class="card">
+                            <h1 class="text-center p-3 display-2"> &starf; &starf; &starf;</h1>
+                            <img class="card-img-top" src="${producto.imagen}" alt="Title" />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">${producto.titulo}</h4>
+                                <p class="card-text text-center">${producto.body}</p>
+                            </div>
+                            <span class="rating text-center">
+                                <a href="Controller?op=rating&rating=1">&#9733;</a>
+                                <a href="Controller?op=rating&rating=2">&#9733;</a>
+                                <a href="Controller?op=rating&rating=3">&#9733;</a>
+                                <a href="Controller?op=rating&rating=4">&#9733;</a>
+                                <a href="Controller?op=rating&rating=5">&#9733;</a>
+                            </span> 
+                        </div>
                     </div>
                 </div>
-
-
             </section>
         </main>
         <footer class="bg-azul">
