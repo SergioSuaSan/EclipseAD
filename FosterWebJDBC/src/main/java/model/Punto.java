@@ -1,18 +1,21 @@
 package model;
 
 public class Punto {
-	private int puntos;
-	private int idproducto;
 	private int id;
+	private int idproducto;
+	private int puntos;
 
-	public Punto(int puntos, int idproducto, int id) {
-		super();
-		this.puntos = puntos;
-		this.idproducto = idproducto;
-		this.id = id;
-	}
 
 	
+	
+	public Punto(int id, int idproducto, int puntos) {
+		super();
+		this.id = id;
+		this.idproducto = idproducto;
+		this.puntos = puntos;
+	}
+
+
 	public Punto() {
 		super();
 		// TODO Auto-generated constructor stub

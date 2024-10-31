@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import model.Categoria;
 import model.Producto;
+import model.Punto;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -18,6 +19,7 @@ import java.util.List;
 import conexion.Conexion;
 import dao.DaoCategoria;
 import dao.DaoProducto;
+import dao.DaoPunto;
 
 
 /**
@@ -78,6 +80,17 @@ public class Controller extends HttpServlet {
 				session.setAttribute("producto", producto);
 				session.setAttribute("nombreproducto", nombreproducto);
 				request.getRequestDispatcher("detail.jsp").forward(request, response);
+				break;
+			case "rating":
+				String rating = request.getParameter("rating");
+				producto = (Producto) session.getAttribute("producto");
+				new DaoPunto().insertarPuntos(new Punto(0,producto.getId(),Integer.parseInt(rating)), con);
+				
+				 producto = new  DaoProducto().getProductobyId(con, producto.getId());
+			
+				session.setAttribute("producto", producto);
+				request.getRequestDispatcher("detail.jsp").forward(request, response);
+				
 				break;
 		}
 

@@ -67,8 +67,7 @@ public class DaoProducto {
 					producto.setTitulo(rs.getString("TITULO"));
 					
 				}
-				rs.close();
-				st.close();
+				
 				
 				ordenSql = "SELECT round(avg(puntos)) estrellitas from PUNTO where idproducto = "+idproducto;
 				rs = st.executeQuery(ordenSql);

@@ -21,4 +21,11 @@
     <fullyQualifiedTypeName name="dao.DaoCategoria"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.Categoria"/>
+    <fullyQualifiedTypeName name="dao.DaoProducto"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="model.Producto"/>
+    <fullyQualifiedTypeName name="dao.DaoPunto"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt"/>
+    <fullyQualifiedTypeName name="model.Punto"/>
 </qualifiedTypeNameHistroy>

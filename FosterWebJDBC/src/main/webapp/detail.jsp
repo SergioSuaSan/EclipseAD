@@ -100,7 +100,11 @@
                 <div class="row justify-content-center m-0">
                     <div class="col-8">
                         <div class="card">
-                            <h1 class="text-center p-3 display-2"> &starf; &starf; &starf;</h1>
+                            <h1 class="text-center p-3 display-2 d-inline">
+                        	<c:forEach  begin="1" end="${producto.star}">
+                             &starf;
+                        	</c:forEach>
+                             </h1>
                             <img class="card-img-top" src="${producto.imagen}" alt="Title" />
                             <div class="card-body">
                                 <h4 class="card-title text-center">${producto.titulo}</h4>
