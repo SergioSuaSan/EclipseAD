@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 
@@ -25,8 +28,9 @@
                         <form action="controller?op=vamarca" method="post">
                             <select class="form-select" name="marca" onchange="this.form.submit()">
                                 <option selected>Todas</option>
-
+								<c:forEach items="${bicis}" var="bici">
                                 <option value="idmarca">NombreMarca</option>
+								</c:forEach>
                                 
                             </select>
                         </form>
@@ -58,11 +62,12 @@
 
             <section>
                 <div class="row justify-content-center p-3">
+                <c:forEach items="${bicis}" var="bici">
                     <div class="col-md-6 col-lg-4 d-flex mb-3">
                         <div class="card flex-fill">
-                            <img class="card-img-top" src="img/bici.jpg" alt="biciiiiiii" />
+                            <img class="card-img-top" src="${bici.foto}" alt="biciiiiiii" />
                             <div class="card-body">
-                                <h4 class="card-title">Title</h4>
+                                <h4 class="card-title">${bici.descripcion}</h4>
                                 <p class="card-text">Text</p>
                                 <p class="card-text">Text</p>
                                 <a href="controller?op=fav" class="text-decoration-none text-secondary">
@@ -72,6 +77,7 @@
                         </div>
 
                     </div>
+                </c:forEach>
                 </div>
             </section>
         </main>
