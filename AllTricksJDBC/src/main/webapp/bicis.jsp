@@ -57,12 +57,21 @@
 
 					</div>
 					<div class="col-md-4 mb-3 text-end text-md-center">
-						<div class="">
-							<a href="controller?op=fav"
-								class="text-decoration-none text-secondary"> <span
-								class="display-3">&#9733</span>
-							</a>
-						</div>
+						<c:choose>
+										<c:when test="${fav == '1'}">
+										<a href="Controller?op=fav"
+												class="text-decoration-none text-warning"> 
+												<span class="display-3">&#9733</span>
+											</a>
+										</c:when>
+										
+										<c:otherwise>
+											<a href="controller?op=fav"
+												class="text-decoration-none text-secondary"> 
+												<span class="display-3">&#9733</span>
+											</a>
+										</c:otherwise>
+									</c:choose>
 					</div>
 				</div>
 			</section>
@@ -86,8 +95,6 @@
 										</c:when>
 										
 										<c:otherwise>
-										<div class="">
-										${bici.fav} = % </div>
 											<a href="controller?op=fav"
 												class="text-decoration-none text-secondary"> 
 												<span class="display-3">&#9733</span>
