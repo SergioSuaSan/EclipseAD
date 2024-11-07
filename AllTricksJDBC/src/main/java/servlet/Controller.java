@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import model.Bici;
+import model.Marca;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -16,6 +17,7 @@ import java.util.List;
 
 import conexion.Conexion;
 import dao.DaoBici;
+import dao.DaoMarca;
 
 
 
@@ -25,7 +27,7 @@ import dao.DaoBici;
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -42,6 +44,11 @@ public class Controller extends HttpServlet {
 		Connection con = null;
 		
 		ArrayList<Bici> bicis = null;
+		ArrayList<Marca> marcas = null;
+		String marca = "";
+		String order = "";
+		String fav = "";
+		
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
@@ -53,12 +60,65 @@ public class Controller extends HttpServlet {
 		System.out.println(op);
 		switch (op) {
 			case "inicio": 
-				
-				bicis = new DaoBici().getBicicletas(con);
+				marca = "%";
+				order = null;
+				fav = "%";
+				bicis = new DaoBici().getBicicletas(con, marca, fav, order);
+				marcas = new DaoMarca().getMarcas(con);
 				
 				session.setAttribute("bicis", bicis);
+				session.setAttribute("marcas", marcas);
+				session.setAttribute("order", order);
+				session.setAttribute("fav", fav);
+				
 				request.getRequestDispatcher("bicis.jsp").forward(request, response);
 				break;	
+				
+			case "vamarca":
+				
+				marca = request.getParameter("marca");
+				
+				session.setAttribute("marca", marca);
+			    order = (String) session.getAttribute("order");
+				fav = (String) session.getAttribute("fav");
+				System.out.println(fav);
+
+				
+				bicis = new DaoBici().getBicicletas(con, marca, fav, order);
+				session.setAttribute("bicis", bicis);
+			
+				request.getRequestDispatcher("bicis.jsp").forward(request, response);
+				break;
+			case "vaorder":
+				order = request.getParameter("order");
+				marca = (String) session.getAttribute("marca");
+				fav = (String) session.getAttribute("fav");
+
+				
+				bicis = new DaoBici().getBicicletas(con, marca, fav, order);
+				session.setAttribute("bicis", bicis);
+
+				request.getRequestDispatcher("bicis.jsp").forward(request, response);
+				break;
+			case "vafav":
+				fav = request.getParameter("marca");
+				if (fav.equals("%"))
+					fav = "1";
+				else
+					fav = "%";
+				session.setAttribute("fav", fav);
+				order = (String) session.getAttribute("order");
+				marca = (String) session.getAttribute("marca");
+				
+
+				
+				bicis = new DaoBici().getBicicletas(con, marca, fav, order);
+				session.setAttribute("bicis", bicis);
+			
+				request.getRequestDispatcher("bicis.jsp").forward(request, response);
+				break;
+				
+				
 				
 			
 		}

@@ -5,22 +5,33 @@ public class Bici {
 	private double precio;
 	private String descripcion;
 	private int marca;
+	private String nombreMarca;
 	private String foto;
 	private int id;
 	
+
 	
-	public Bici(int fav, double precio, String descripcion, int marca, String foto, int id) {
+	public Bici(int fav, double precio, String descripcion, int marca, String nombreMarca, String foto, int id) {
 		super();
 		this.fav = fav;
 		this.precio = precio;
 		this.descripcion = descripcion;
 		this.marca = marca;
+		this.nombreMarca = nombreMarca;
 		this.foto = foto;
 		this.id = id;
 	}
 	public Bici() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public String getNombreMarca() {
+		return nombreMarca;
+	}
+	public void setNombreMarca(String nombreMarca) {
+		this.nombreMarca = nombreMarca;
 	}
 	public int getFav() {
 		return fav;
@@ -61,8 +72,9 @@ public class Bici {
 	@Override
 	public String toString() {
 		return "Bici [fav=" + fav + ", precio=" + precio + ", descripcion=" + descripcion + ", marca=" + marca
-				+ ", foto=" + foto + ", id=" + id + "]";
+				+ ", nombreMarca=" + nombreMarca + ", foto=" + foto + ", id=" + id + "]";
 	}
+
 	
 	
 

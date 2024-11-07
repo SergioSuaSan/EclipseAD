@@ -12,30 +12,24 @@ import model.Bici;
 
 public class DaoBici {
 	
-	public ArrayList<Bici> getBicicletas(Connection con){
+	public ArrayList<Bici> getBicicletas(Connection con, String marca, String fav, String order ){
 		ResultSet rs;
 		ArrayList<Bici> bicis = new ArrayList<Bici>();
 		Statement st;
 		
 		try {
 			st = con.createStatement();
-			String ordenSql = "SELECT * from BICI";
+			String ordenSql = "SELECT B.ID, FOTO, MARCA, DESCRIPCION, PRECIO, FAV, NOMBRE from BICI B, MARCA M "
+					+ "where marca = M.ID and marca like '" + marca + "' and fav like '" + fav +"' order by "+order ;
 			rs = st.executeQuery(ordenSql);
 			System.out.println(ordenSql);
 			while (rs.next()) {
-				/*
-				 * this.fav = fav;
-		this.precio = precio;
-		this.descripcion = descripcion;
-		this.marca = marca;
-		this.foto = foto;
-		this.id = id;
-				 */
 				Bici objeto = new Bici();
 				objeto.setFav(rs.getInt("FAV"));
 				objeto.setPrecio(rs.getInt("PRECIO"));
 				objeto.setDescripcion(rs.getString("DESCRIPCION"));
 				objeto.setMarca(rs.getInt("MARCA"));
+				objeto.setNombreMarca(rs.getString("NOMBRE"));
 				objeto.setFoto(rs.getString("FOTO"));
 				objeto.setId(rs.getInt("ID"));
 				
