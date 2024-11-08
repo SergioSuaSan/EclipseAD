@@ -32,7 +32,7 @@
 						<form action="Controller?op=vamarca" method="post">
 							<select class="form-select" name="marca"
 								onchange="this.form.submit()">
-								<option value = "%">Todas</option>
+								<option value="%">Todas</option>
 								<c:forEach items="${marcas}" var="marca">
 									<option value="${marca.id}">${marca.nombre}</option>
 								</c:forEach>
@@ -58,20 +58,20 @@
 					</div>
 					<div class="col-md-4 mb-3 text-end text-md-center">
 						<c:choose>
-										<c:when test="${fav == '1'}">
-										<a href="Controller?op=fav"
-												class="text-decoration-none text-warning"> 
-												<span class="display-3">&#9733</span>
-											</a>
-										</c:when>
-										
-										<c:otherwise>
-											<a href="controller?op=fav"
-												class="text-decoration-none text-secondary"> 
-												<span class="display-3">&#9733</span>
-											</a>
-										</c:otherwise>
-									</c:choose>
+							<c:when test="${fav == '1'}">
+								<a href="Controller?op=fav"
+									class="text-decoration-none text-warning"> <span
+									class="display-3">&#9733</span>
+								</a>
+							</c:when>
+
+							<c:otherwise>
+								<a href="controller?op=fav"
+									class="text-decoration-none text-secondary"> <span
+									class="display-3">&#9733</span>
+								</a>
+							</c:otherwise>
+						</c:choose>
 					</div>
 				</div>
 			</section>
@@ -88,16 +88,16 @@
 									<p class="card-text">${bici.precio}</p>
 									<c:choose>
 										<c:when test="${bici.fav == '1'}">
-										<a href="Controller?op=fav"
-												class="text-decoration-none text-warning"> 
-												<span class="display-3">&#9733</span>
+											<a href="Controller?op=fav"
+												class="text-decoration-none text-warning"> <span
+												class="display-3">&#9733</span>
 											</a>
 										</c:when>
-										
+
 										<c:otherwise>
 											<a href="controller?op=fav"
-												class="text-decoration-none text-secondary"> 
-												<span class="display-3">&#9733</span>
+												class="text-decoration-none text-secondary"> <span
+												class="display-3">&#9733</span>
 											</a>
 										</c:otherwise>
 									</c:choose>
