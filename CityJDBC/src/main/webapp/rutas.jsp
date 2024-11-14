@@ -1,7 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Ciudades</title>
+        <title>Rutas</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,6 +19,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
@@ -31,7 +35,7 @@
                 <div class="col">
                     <div class="row justify-content-center align-items-center fs-2">
                         <div class="col text-sm-end">
-                            <a href="#" class="text-white text-decoration-none">Ciudades</a>
+                            <a href="Controller?op=inicio" class="text-white text-decoration-none">Ciudades</a>
                         </div>
                         <div class="col">
                             <div class="dropdown">
@@ -64,19 +68,40 @@
         <main class="bg-body-secondary">
             <div class="container">
                 <div class="row justify-content-center ">
+                        <c:forEach begin="1" end="1" items="${nombreciu}" var="ruta">
+                    <div class="text-center text-white fs-1 fw-semibold m-3 p-3 bg-primary m-0">
+                        	${ruta}
+                    </div>
+                        </c:forEach>
                     <div class="col-lg-6 d-flex p-3">
                         <div class="card flex-fill shadow">
-                            <img class="card-img-top" src="img/fotociudad.jpg" alt="Title" />
+                            <a href="#">
+                                <img class="card-img-top" src="img/fotociudad.jpg" alt="Title" />
+                            </a>
                             <div class="card-body ">
                                 <h4 class="card-title">Title</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel pariatur porro sequi sunt perferendis quasi veniam a blanditiis quaerat atque est, aut repudiandae? Inventore aspernatur culpa qui saepe suscipit!</p>
-                                <div class=" float-end">
-                                    <img src="img/mapa.png" alt="" width="100">
+                                <h4 class="text-center p-3  d-inline">
+                                   
+                                     &starf;
+                               
+                                </h4>
+                                <div class="m-5"></div>
+                                <div class=" float-end bottom-0">
+                                    <span class="rating">
+                                        <a href="Controller?op=rating&rating=1&rutaid=${ruta.id}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=2&rutaid=${ruta.id}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=3&rutaid=${ruta.id}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=4&rutaid=${ruta.id}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=5&rutaid=${ruta.id}">&#9733;</a>
+                                      
+                                    </span>
                                 </div>
                             </div>
                         </div>
                         
                     </div>
+                    
                     
                 </div>
             </div>

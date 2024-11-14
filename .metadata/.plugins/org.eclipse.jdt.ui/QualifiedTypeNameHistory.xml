@@ -30,6 +30,7 @@
     <fullyQualifiedTypeName name="model.Marca"/>
     <fullyQualifiedTypeName name="dao.DaoMarca"/>
     <fullyQualifiedTypeName name="dao.DaoBici"/>
+    <fullyQualifiedTypeName name="dao.DaoRuta"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="dao.DaoCiudad"/>
 </qualifiedTypeNameHistroy>

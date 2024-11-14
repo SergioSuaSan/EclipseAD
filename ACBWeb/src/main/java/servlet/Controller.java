@@ -6,17 +6,18 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import model.Ciudad;
-import model.Ruta;
+import model.Equipo;
+import model.Jugador;
 
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 import conexion.Conexion;
-import dao.DaoCiudad;
-import dao.DaoRuta;
-
+import dao.DaoEquipo;
+import dao.DaoJugador;
 
 
 
@@ -26,7 +27,7 @@ import dao.DaoRuta;
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -41,10 +42,8 @@ public class Controller extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		Connection con = null;
-		
-		ArrayList<Ciudad> ciudades = null;
-		ArrayList<Ciudad> ciudadesruta = null;
-		ArrayList<Ruta> rutas = null;
+		ArrayList<Equipo> equipos = null;
+		ArrayList<Jugador> jugadores = null;
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
@@ -56,26 +55,11 @@ public class Controller extends HttpServlet {
 		System.out.println(op);
 		switch (op) {
 			case "inicio": 
+			equipos = new DaoEquipo().getEquipos(con);
 				
-				ciudades = new DaoCiudad().getCiudades(con);
-				ciudadesruta = new DaoCiudad().getCiudadesporRuta(con);
-				
-				session.setAttribute("ciudades", ciudades);
-				session.setAttribute("ciudadesruta", ciudadesruta);
-				
-				
+				session.setAttribute("equipos", equipos);
 				request.getRequestDispatcher("home.jsp").forward(request, response);
 				break;	
-			case "dameciudad":
-				String idciudad = request.getParameter("idciudad");
-				String nombreciu = request.getParameter("nombreciu");
-				
-				rutas = new  DaoRuta().getRutasbyCiudad(con, Integer.parseInt(idciudad));
-				session.setAttribute("nombreciu", nombreciu);
-				session.setAttribute("rutas", rutas);
-				request.getRequestDispatcher("rutas.jsp").forward(request, response);
-				break;
-				
 				
 			
 		}
