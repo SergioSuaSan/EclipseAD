@@ -6,19 +6,16 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import model.Equipo;
-import model.Jugador;
 
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 import conexion.Conexion;
-import dao.DaoEquipo;
-import dao.DaoJugador;
-
+import daos.DaoEquipo;
+import daos.DaoJugador;
+import entities.Equipo;
+import entities.Jugador;
 
 
 /**
@@ -44,6 +41,7 @@ public class Controller extends HttpServlet {
 		Connection con = null;
 		ArrayList<Equipo> equipos = null;
 		ArrayList<Jugador> jugadores = null;
+		Equipo equipo = null;
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
@@ -52,16 +50,30 @@ public class Controller extends HttpServlet {
 		}
 		
 		String op = request.getParameter("op");
-		System.out.println(op);
 		switch (op) {
 			case "inicio": 
-			equipos = new DaoEquipo().getEquipos(con);
-				
+				equipos = new DaoEquipo().getEquipos(con);
 				session.setAttribute("equipos", equipos);
+
 				request.getRequestDispatcher("home.jsp").forward(request, response);
+				break;		
+			case "vaequipo": 
+				String idequipo = request.getParameter("idequipo");
+				jugadores = new DaoJugador().getJugadoresByEquipo(con, Integer.parseInt(idequipo));
+				equipo = new DaoEquipo().getEquipobyid(con, Integer.parseInt(idequipo));
+				session.setAttribute("jugadores", jugadores);	
+				session.setAttribute("equipo", equipo);
+
+				request.getRequestDispatcher("jugadores.jsp").forward(request, response);
 				break;	
-				
-			
+			case "dalike": 
+				String idjugador = request.getParameter("idjugador");
+				new DaoJugador().darLike(Integer.parseInt(idjugador), con);
+				equipo = (Equipo) session.getAttribute("equipo");
+				jugadores = new DaoJugador().getJugadoresByEquipo(con, equipo.getId());
+				session.setAttribute("jugadores", jugadores);	
+				request.getRequestDispatcher("jugadores.jsp").forward(request, response);
+				break;	
 		}
 
 	}

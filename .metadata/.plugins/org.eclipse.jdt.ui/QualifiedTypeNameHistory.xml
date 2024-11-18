@@ -33,4 +33,7 @@
     <fullyQualifiedTypeName name="dao.DaoRuta"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="dao.DaoCiudad"/>
+    <fullyQualifiedTypeName name="daos.DaoJugador"/>
+    <fullyQualifiedTypeName name="daos.DaoEquipo"/>
+    <fullyQualifiedTypeName name="entities.Equipo"/>
 </qualifiedTypeNameHistroy>
