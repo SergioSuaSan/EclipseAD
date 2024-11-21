@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import model.Ciudad;
+import model.Punto;
 import model.Ruta;
 
 import java.io.IOException;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 
 import conexion.Conexion;
 import dao.DaoCiudad;
+import dao.DaoPunto;
 import dao.DaoRuta;
 
 
@@ -45,6 +47,7 @@ public class Controller extends HttpServlet {
 		ArrayList<Ciudad> ciudades = null;
 		ArrayList<Ciudad> ciudadesruta = null;
 		ArrayList<Ruta> rutas = null;
+
 		
 		con = (Connection)session.getAttribute("con");
 		if (con== null) {
@@ -73,6 +76,24 @@ public class Controller extends HttpServlet {
 				rutas = new  DaoRuta().getRutasbyCiudad(con, Integer.parseInt(idciudad));
 				session.setAttribute("nombreciu", nombreciu);
 				session.setAttribute("rutas", rutas);
+
+				session.setAttribute("idciudad", idciudad);
+				
+				request.getRequestDispatcher("rutas.jsp").forward(request, response);
+				break;
+			case "rating":
+				String rating = request.getParameter("rating");
+				String rutaid = request.getParameter("rutaid");
+				 idciudad = request.getParameter("idciudad");
+				nombreciu = request.getParameter("nombreciu");
+			
+				new DaoPunto().insertarPuntos(new Punto(0, Integer.parseInt(rutaid), Integer.parseInt(rating) ), con);
+				
+				rutas = new  DaoRuta().getRutasbyCiudad(con, Integer.parseInt(idciudad));
+				session.setAttribute("nombreciu", nombreciu);
+				session.setAttribute("rutas", rutas);
+				session.setAttribute("idciudad", idciudad);
+				
 				request.getRequestDispatcher("rutas.jsp").forward(request, response);
 				break;
 				

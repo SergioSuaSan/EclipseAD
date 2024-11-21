@@ -50,12 +50,10 @@
                                     Rutas
                                 </button> 
                                 <div class="dropdown-menu" aria-labelledby="triggerId">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item disabled" href="#">Disabled action</a>
-                                    <h6 class="dropdown-header">Section header</h6>
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">After divider action</a>
+                                  <c:forEach items="${ciudadesruta}" var="ciudad">
+                                    <a class="dropdown-item" href="Controller?op=dameciudad&idciudad=${ciudad.id}&nombreciu=${ciudad.nombre}">${ciudad.nombre}</a>
+                                  </c:forEach>
+                                   
                                 </div>
                             </div>
                             
@@ -67,33 +65,34 @@
         </header>
         <main class="bg-body-secondary">
             <div class="container">
-                <div class="row justify-content-center ">
-                        <c:forEach begin="1" end="1" items="${nombreciu}" var="ruta">
+                <div class="row justify-content-center ">       
                     <div class="text-center text-white fs-1 fw-semibold m-3 p-3 bg-primary m-0">
-                        	${ruta}
+                        	${nombreciu}
                     </div>
-                        </c:forEach>
+                 		<c:forEach items="${rutas}" var="ruta">
                     <div class="col-lg-6 d-flex p-3">
                         <div class="card flex-fill shadow">
-                            <a href="#">
-                                <img class="card-img-top" src="img/fotociudad.jpg" alt="Title" />
+                            <a href="${ruta.link}">
+                                <img class="card-img-top" src="${ruta.imagen}" alt="Title" />
                             </a>
                             <div class="card-body ">
-                                <h4 class="card-title">Title</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel pariatur porro sequi sunt perferendis quasi veniam a blanditiis quaerat atque est, aut repudiandae? Inventore aspernatur culpa qui saepe suscipit!</p>
+                                <h4 class="card-title">${ruta.nombre}</h4>
+                                <p class="card-text">${ruta.descripcion }</p>
                                 <h4 class="text-center p-3  d-inline">
                                    
+                                   <c:forEach begin="1" end="${ruta.puntos}">
                                      &starf;
+                                   </c:forEach>
                                
                                 </h4>
                                 <div class="m-5"></div>
                                 <div class=" float-end bottom-0">
                                     <span class="rating">
-                                        <a href="Controller?op=rating&rating=1&rutaid=${ruta.id}">&#9733;</a>
-                                        <a href="Controller?op=rating&rating=2&rutaid=${ruta.id}">&#9733;</a>
-                                        <a href="Controller?op=rating&rating=3&rutaid=${ruta.id}">&#9733;</a>
-                                        <a href="Controller?op=rating&rating=4&rutaid=${ruta.id}">&#9733;</a>
-                                        <a href="Controller?op=rating&rating=5&rutaid=${ruta.id}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=1&rutaid=${ruta.id}&idciudad=${idciudad}&nombreciu=${nombreciu}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=2&rutaid=${ruta.id}&idciudad=${idciudad}&nombreciu=${nombreciu}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=3&rutaid=${ruta.id}&idciudad=${idciudad}&nombreciu=${nombreciu}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=4&rutaid=${ruta.id}&idciudad=${idciudad}&nombreciu=${nombreciu}">&#9733;</a>
+                                        <a href="Controller?op=rating&rating=5&rutaid=${ruta.id}&idciudad=${idciudad}&nombreciu=${nombreciu}">&#9733;</a>
                                       
                                     </span>
                                 </div>
@@ -102,6 +101,7 @@
                         
                     </div>
                     
+                 		</c:forEach>    
                     
                 </div>
             </div>

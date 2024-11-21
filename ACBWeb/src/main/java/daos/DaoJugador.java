@@ -50,7 +50,7 @@ public class DaoJugador {
 		try {
 			st = con.prepareStatement(ordenSQL);
 			st.setInt(1, idjugador);
-			
+			st.executeUpdate();
 			st.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

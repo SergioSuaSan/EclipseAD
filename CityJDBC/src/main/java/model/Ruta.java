@@ -7,7 +7,27 @@ public class Ruta {
 	private String imagen;
 	private String descripcion;
 	private String link;
+	private int puntos;
 	
+	public int getPuntos() {
+		return puntos;
+	}
+
+	public void setPuntos(int puntos) {
+		this.puntos = puntos;
+	}
+
+	public Ruta(int id, int ciudad, String nombre, String imagen, String descripcion, String link, int puntos) {
+		super();
+		this.id = id;
+		this.ciudad = ciudad;
+		this.nombre = nombre;
+		this.imagen = imagen;
+		this.descripcion = descripcion;
+		this.link = link;
+		this.puntos = puntos;
+	}
+
 	public Ruta(int id, int ciudad, String nombre, String imagen, String descripcion, String link) {
 		super();
 		this.id = id;
@@ -74,8 +94,10 @@ public class Ruta {
 	@Override
 	public String toString() {
 		return "Ruta [id=" + id + ", ciudad=" + ciudad + ", nombre=" + nombre + ", imagen=" + imagen + ", descripcion="
-				+ descripcion + ", link=" + link + "]";
+				+ descripcion + ", link=" + link + ", puntos=" + puntos + "]";
 	}
+
+	
 	
 
 }

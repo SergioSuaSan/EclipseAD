@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             <div class="position-absolute bottom-0 end-0"><span class="h2">${jugador.likes}</span>
-                           <a href="Controller?op=dalike&idjugador=${jugador.id}">
+                           <a href="Controller?op=dalike&idjugador=${jugador.id}" class="text-black">
                             <i class="fa fa-thumbs-o-up fa-2x mx-2" aria-hidden="true"></i>
                            </a>  	
                             </div>
