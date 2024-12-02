@@ -87,6 +87,8 @@ public class Controller extends HttpServlet {
 				new DaoPunto().insertarPuntos(new Punto(0,producto.getId(),Integer.parseInt(rating)), con);
 				
 				 producto = new  DaoProducto().getProductobyId(con, producto.getId());
+				 request.setAttribute("msg", "Anotadas "+rating+" estrellas a "+producto.getTitulo());
+
 			
 				session.setAttribute("producto", producto);
 				request.getRequestDispatcher("detail.jsp").forward(request, response);
